@@ -1,12 +1,12 @@
-function findItemsOver(threshold){
-    console.log(threshold)
-    let itemArr =[]
-    
-    for(let i=0; i< threshold.length; i++){
-     var listItem = threshold[i];
-      if(listItem.qty > 20){
-        itemArr.push(listItem)
-      }
+function findItemsOver(objList,threshold){
+  console.log(threshold)
+  let itemArr =[]
+  
+  for(let i=0; i< objList.length; i++){
+   var listItem = objList[i];
+    if(listItem.qty > threshold){
+      itemArr.push(listItem)
     }
-  return itemArr
   }
+return itemArr
+}

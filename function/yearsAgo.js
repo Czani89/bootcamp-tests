@@ -3,6 +3,6 @@ function yearsAgo(year){
     var currentDate = new Date
    
      var currentYear = currentDate.getFullYear()
-     console.log(currentYear)
+    //  console.log(currentYear)
     return currentYear - year;
   }

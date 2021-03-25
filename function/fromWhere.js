@@ -8,9 +8,6 @@ function fromWhere(carReg){
         return "Cape Town";
         default:
         return "Some other place!";
-        
-        
-        
-        
-            }
+      
+      }
   }
