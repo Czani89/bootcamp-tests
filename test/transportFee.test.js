@@ -7,5 +7,9 @@ describe('transportFee' , function(){
         assert.equal(transportFee('afternoon'),'R10');
 
     });
+    it('should show you that the nightshift transport fee is free' , function(){
+        assert.equal(transportFee('nightshift'),'free');
+
+    });
 
 });
